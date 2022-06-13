@@ -1,0 +1,41 @@
+nav .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large; width: 50%;
+    display: inline-block;
+    height: 10%;
+
+}
+nav .logo p {position: relative; left: 20%;}
+nav a{
+    font-family: 'Varela Round', sans-serif;   
+    display: inline;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    width: 50%;
+    display: inline;
+    height: 10%;
+    font-weight: bold;
+
+    
+}
+nav div {
+    display: inline;
+}
+.okno{
+    width: 100vw;
+    height: 100vw;
+    background-image: url(/photo/splash-milk-strawberry.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.textokno{
+    width: 30%;
+    height: 10%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+}
+.getfree button{height:50px;width: 250px; background-color: rgb(255, 115, 0); font-size: x-large; box-shadow: black 2px 2px 5px; border-width: 0px; color: rgb(243, 236, 236);font-weight: 100; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-transform: uppercase; position: relative; left: 10%; top: 150px;}
