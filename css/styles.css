@@ -1,33 +1,30 @@
+/* pasek nawigacji------------ */
 nav .logo {
     font-family: 'Pacifico', cursive;
-    font-size: xx-large; width: 50%;
-    display: inline-block;
-    height: 10%;
-
+    font-size: xx-large;
+    margin-left: 8%;
+flex-basis: 40%;
 }
-nav .logo p {position: relative; left: 20%;}
-nav a{
+nav .menu a{
     font-family: 'Varela Round', sans-serif;   
-    display: inline;
     text-transform: uppercase;
     text-decoration: none;
-    text-align: right;
-    width: 50%;
-    display: inline;
-    height: 10%;
-    font-weight: bold;
+    font-weight: bold;    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
 
-    
-}
-nav div {
-    display: inline;
-}
+/* pierwsza stronka-------------- */
 .okno{
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     background-image: url(/photo/splash-milk-strawberry.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: 0;
 }
 
 .textokno{
@@ -39,3 +36,84 @@ nav div {
 
 }
 .getfree button{height:50px;width: 250px; background-color: rgb(255, 115, 0); font-size: x-large; box-shadow: black 2px 2px 5px; border-width: 0px; color: rgb(243, 236, 236);font-weight: 100; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-transform: uppercase; position: relative; left: 10%; top: 150px;}
+
+/* druga stronka */
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/photo/maliny.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+margin: 0;}
+
+.maliny {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+height: 60%;
+position: relative;
+left: 60%;
+top: 30%;
+color: white;
+font-size: xx-large;
+}
+.aboutus p {font-size: large;}
+
+/* trzecia stronka-------- */
+section {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/photo/veggies.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{display: inline-flex;
+flex-direction: row-reverse;}
+
+.services {margin: 0;
+width: 50vw;
+height: 50vw;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: xx-large; color:white; font-family:'Segoe UI',Tahoma,Geneva, Verdana, sans-serif;}
+
+/* GUZIKI 3 stronki  */
+
+.guziki {
+    width: 50vw;
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 2%;
+    
+}
+.box1, .box2, .box3, .box4{width: 20vw; height: 10vh;
+background-color: white;
+border: 1px rgba(0, 0, 0, 0.589) solid;
+display: inline-flex;
+align-items: flex-start;
+align-items: center;
+column-gap: 0.5vw;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+.Online button , .Quality button , .Domestic button, .Organized button{border: 0ch; height: 10vh ;width:15vw; display: inline-flex; align-items: center; justify-content: center;background-color: white; border-right: solid rgba(0, 0, 0, 0.226) 1px;}
+
+.Online i,
+.Quality i,
+.Domestic i,
+.Organized i{font-size: 2.5rem;}
+
+/* czwarta stronka -- GALLERY */
+article {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(233, 209, 72);
+    background-repeat: no-repeat;
+    background-size: 100%;
+display: flex; flex-direction: column;justify-content: center; align-items: center;}
+
+.gallery{height: 20vh; width: 40vw; display: flex; flex-direction: column ;text-align: center; justify-content: center; font-size: 2rem;}
