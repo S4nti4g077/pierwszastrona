@@ -1,15 +1,12 @@
-<<<<<<< HEAD
 /* pasek nawigacji------------ */
-=======
 /* pasek nawigacji */
->>>>>>> bc9f92ab818806d5f87fd0db88fb625fb8951f43
 nav .logo {
     font-family: 'Pacifico', cursive;
     font-size: xx-large;
     margin-left: 8%;
 flex-basis: 40%;
 }
-<<<<<<< HEAD
+
 nav .menu a{
     font-family: 'Varela Round', sans-serif;   
     text-transform: uppercase;
@@ -23,7 +20,7 @@ nav{
 }
 
 /* pierwsza stronka-------------- */
-=======
+
 nav .logo p {position: relative; left: 20%;}
 nav div a{
     font-family: 'Varela Round', sans-serif;   
@@ -46,7 +43,6 @@ nav div {
 }
 
 /* pierwsza stronka */
->>>>>>> bc9f92ab818806d5f87fd0db88fb625fb8951f43
 .okno{
     width: 100vw;
     height: 100vh;
