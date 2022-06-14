@@ -15,8 +15,9 @@ nav div a{
     text-align: right;
     display: flex;
     justify-content: flex-end space-between;
-    width: 50%;
-    display: inline;
+    width: calc(50%/6);
+    display: inline-block;
+    margin: 0px;
     height: 10%;
     font-weight: bold;
 
