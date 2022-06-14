@@ -1,3 +1,4 @@
+/* pasek nawigacji */
 nav .logo {
     font-family: 'Pacifico', cursive;
     font-size: xx-large; width: 50%;
@@ -6,12 +7,14 @@ nav .logo {
 
 }
 nav .logo p {position: relative; left: 20%;}
-nav a{
+nav div a{
     font-family: 'Varela Round', sans-serif;   
-    display: inline;
+    display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
     text-align: right;
+    display: flex;
+    justify-content: flex-end space-between;
     width: 50%;
     display: inline;
     height: 10%;
@@ -22,6 +25,8 @@ nav a{
 nav div {
     display: inline;
 }
+
+/* pierwsza stronka */
 .okno{
     width: 100vw;
     height: 100vw;
