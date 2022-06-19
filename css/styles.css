@@ -107,6 +107,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
 .Organized i{font-size: 2.5rem;}
 
 /* czwarta stronka -- GALLERY */
+
 article {
     margin: 0;
     width: 100vw;
@@ -114,6 +115,32 @@ article {
     background-color: rgb(233, 209, 72);
     background-repeat: no-repeat;
     background-size: 100%;
-display: flex; flex-direction: column;justify-content: center; align-items: center;}
+display: flex; flex-direction: column;}
 
-.gallery{height: 20vh; width: 40vw; display: flex; flex-direction: column ;text-align: center; justify-content: center; font-size: 2rem;}
+.gallery{height: 20vh; width: 100vw; padding: 0% 35%; box-sizing: border-box ; text-align: center; justify-content: center; font-size: 1rem;}
+
+.gallery h1{font-size: 3rem;}
+
+.owoce1 {width: 100vw; height: 40vh; background-color: blue; display: flex; flex-direction: row; }
+
+.brzoskwinie{width: 60%; display: flex ;justify-content: end; margin-right: 1%;}
+
+.brzoskwinie img{height: 100%;}
+
+.lesne{width:40%; display: flex; flex-direction: column;}
+
+.lesne img {height: 50%; width: 40%;}
+.lesne1{margin-bottom: 1%;}
+.lesne2{margin-top: 1%;}
+
+.owoce2 {
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(0, 255, 136);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.jagoda{width: 35vw }
+.khaki{width: 25vw;}
