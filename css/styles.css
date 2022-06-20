@@ -1,0 +1,234 @@
+/* pasek nawigacji------------ */
+nav .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    margin-left: 8%;
+flex-basis: 40%;
+}
+nav .menu a{
+    font-family: 'Varela Round', sans-serif;   
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+/* pierwsza stronka-------------- */
+.okno{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/photo/splash-milk-strawberry.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+.textokno{
+    width: 30%;
+    height: 10%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+}
+.getfree button{height:50px;width: 250px; background-color: rgb(255, 115, 0); font-size: x-large; box-shadow: black 2px 2px 5px; border-width: 0px; color: rgb(243, 236, 236);font-weight: 100; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-transform: uppercase; position: relative; left: 10%; top: 150px;}
+
+/* druga stronka */
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/photo/maliny.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+margin: 0;}
+
+.maliny {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+height: 60%;
+position: relative;
+left: 60%;
+top: 30%;
+color: white;
+font-size: xx-large;
+}
+.aboutus p {font-size: large;}
+
+/* trzecia stronka-------- */
+section {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/photo/veggies.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{display: inline-flex;
+flex-direction: row-reverse;}
+
+.services {margin: 0;
+width: 50vw;
+height: 50vw;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: xx-large; color:white; font-family:'Segoe UI',Tahoma,Geneva, Verdana, sans-serif;}
+
+/* GUZIKI 3 stronki  */
+
+.guziki {
+    width: 50vw;
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 2%;
+    
+}
+.box1, .box2, .box3, .box4{width: 20vw; height: 10vh;
+background-color: white;
+border: 1px rgba(0, 0, 0, 0.589) solid;
+display: inline-flex;
+align-items: flex-start;
+align-items: center;
+column-gap: 0.5vw;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+.Online button , .Quality button , .Domestic button, .Organized button{border: 0ch; height: 10vh ;width:15vw; display: inline-flex; align-items: center; justify-content: center;background-color: white; border-right: solid rgba(0, 0, 0, 0.226) 1px;}
+
+.Online i,
+.Quality i,
+.Domestic i,
+.Organized i{font-size: 2.5rem;}
+
+/* czwarta stronka -- GALLERY */
+
+article {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(233, 209, 72);
+    background-repeat: no-repeat;
+    background-size: 100%;
+display: grid;
+grid-template-columns: repeat(12, 1fr); grid-template-rows: repeat(12, 1fr);
+
+gap: 1%;}
+
+.gallery{
+    text-align: center;
+    grid-column: 5/9;
+    grid-row: 2;
+}
+
+.gallery h1{font-size: 3rem;}
+
+.brzoskwinie{grid-column: 3/8;
+grid-row: 3/9;}
+
+.lesne1{grid-column: 8/11; grid-row: 3/6;}
+
+.lesne2 {
+    grid-column: 8/11;
+    grid-row: 6/9;
+}
+
+.jagoda{grid-column: 3/7; grid-row:9/12 ;}
+.khaki{
+    grid-column: 7/11;
+    grid-row: 9/12;
+}
+
+article div img {height: 100%; width: 100%; object-fit: fill}
+
+/* piąta stronka - Subscribe */
+
+.subspg {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(/photo/jagodytło.jpg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size:contain;
+    margin-left: ;
+    
+}
+
+.textokno1 {
+    width: 40%;
+    height: 10%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+}
+
+mark .subscribe input {height: 50px;
+    width: 30vw; position: relative;
+        left: 10%;
+        top: 150px;
+    }
+
+.subscribe button {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(88, 168, 34);
+    font-size: x-large;
+    box-shadow: black 2px 2px 5px;
+    border-width: 0px;
+    color: rgb(243, 236, 236);
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    left: 10%;
+    top: 150px;
+    margin-left: 1vw;
+}
+
+/* CONTACT - szósta strona */
+
+summary {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/photo/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+summary h1 {font-size: 4rem;}
+
+.lorem{margin-left: 35vw; margin-right: 35vw;}
+
+.contact{width: 50vw; height: 50vh; display: inline-block; position:relative; left: -20vw; top: 5vh}
+
+.contact input, textarea{display: flex; flex-direction: column; width: 25vw; height: 4vh; background-color: rgba(131, 252, 252, 0.788); border: 0px; padding: 5px; margin: 1%; margin-left: 15vw;}
+
+textarea{width: 25vw; height: 20vh;}
+.info h3 , p{display: block; margin: 2px 0px; font-size: 1rem;}
+
+.info {
+    text-align: left;
+    width: 50vw;
+    height: 50vh;
+    display: inline-block;
+    position: relative;
+    top: -41vh; right: -60vw;
+}
+
+/* strona siódma - FOOTER */
+
+footer{width: 100vw; height: 10vh; background-color: rgba(0, 0, 0, 0.918); margin: 0px; display: flex; align-items: center; justify-content: space-between; color: rgba(255, 255, 255, 0.555);}
+
+footer h1{font-family: pacifico; }
+
+footer p{margin-left: 2vw; margin-right: 2vw;}
+
+footer span{color: brown;}
